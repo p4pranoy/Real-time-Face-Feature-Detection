@@ -1,4 +1,4 @@
-#This repository contains a Jupyter Notebook (TensorFlow Vision Projects.ipynb) showcasing a TensorFlow project focused on computer vision, specifically a Dog vs. Cat Classification Model.
+# This repository contains a Jupyter Notebook (TensorFlow Vision Projects.ipynb) showcasing a TensorFlow project focused on computer vision, specifically a Dog vs. Cat Classification Model.
 
 Project Overview
 -------------------------------------------------------------------------------------------------
@@ -17,11 +17,11 @@ Getting Started
 Prerequisites
 To run this notebook, you will need to have Python and the following libraries installed:
 
-# tensorflow
+* tensorflow
 
-# keras (usually installed with TensorFlow)
+* keras (usually installed with TensorFlow)
 
-# numpy (often a dependency of other libraries)
+* numpy (often a dependency of other libraries)
 
 You can install TensorFlow via pip:
 
