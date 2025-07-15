@@ -1,4 +1,4 @@
-This repository contains a Jupyter Notebook (TensorFlow Vision Projects.ipynb) showcasing a TensorFlow project focused on computer vision, specifically a Dog vs. Cat Classification Model.
+@ This repository contains a Jupyter Notebook (TensorFlow Vision Projects.ipynb) showcasing a TensorFlow project focused on computer vision, specifically a Dog vs. Cat Classification Model.
 
 Project Overview
 -------------------------------------------------------------------------------------------------
