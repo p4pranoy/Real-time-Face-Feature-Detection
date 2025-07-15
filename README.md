@@ -1,44 +1,48 @@
-# This repository contains a Jupyter Notebook (TensorFlow Vision Projects.ipynb) showcasing a TensorFlow project focused on computer vision, specifically a Dog vs. Cat Classification Model.
+This repository contains a Jupyter Notebook (`Chapter_08 (2).ipynb`) that demonstrates **image segmentation** and **Optical Character Recognition (OCR)** with bounding box detection using **OpenCV** and **Pytesseract**.
 
-Project Overview
--------------------------------------------------------------------------------------------------
-This notebook demonstrates the process of building, compiling, and training a convolutional neural network (CNN) using TensorFlow and Keras to classify images as either "dog" or "cat."
+## Project Overview
 
-Key Highlights
--------------------------------------------------------------------------------------------------
-1. TensorFlow & Keras: Utilizes these powerful libraries for deep learning model development.
+This notebook provides a practical example of how to:
 
-2. Image Classification: Focuses on a binary classification task to distinguish between dogs and cats.
+1.  Perform basic image segmentation techniques.
+2.  Utilize Pytesseract to extract text from images.
+3.  Draw bounding boxes around the detected characters or words for visual verification.
+4.  Display results effectively within a Jupyter (or Google Colab) environment using Matplotlib.
 
-3. Model Training: Includes steps for training the model and saving the trained weights (dog_cat_model.h5).
+## Key Highlights
 
-Getting Started
--------------------------------------------------------------------------------------------------
-Prerequisites
+  * **Image Segmentation**: Basic image preprocessing steps including grayscale conversion and thresholding.
+  * **Optical Character Recognition (OCR)**: Integrates Pytesseract to perform text extraction from images.
+  * **Bounding Box Visualization**: Draws rectangles around recognized text components to highlight detection results.
+  * **Google Colab Compatibility**: Uses `cv2_imshow` and `matplotlib.pyplot` for seamless image display in Colab notebooks.
+
+## Getting Started
+
+### Prerequisites
+
 To run this notebook, you will need to have Python and the following libraries installed:
 
-* tensorflow
+  * `opencv-python`
+  * `numpy`
+  * `matplotlib`
+  * `Pytesseract` (and the Tesseract OCR engine itself)
 
-* keras (usually installed with TensorFlow)
+You can install the Python libraries via pip:
 
-* numpy (often a dependency of other libraries)
+```bash
+pip install opencv-python numpy matplotlib pytesseract
+```
 
-You can install TensorFlow via pip:
+**Note**: You will also need to install the Tesseract OCR engine executable on your system. Refer to the official Pytesseract documentation for installation instructions specific to your operating system.
 
-  Bash
+### How to Run
 
-  pip install tensorflow
+1.  Ensure you have an image file (e.g., `image.jpg` as suggested by the notebook content) in the same directory as the notebook. This image should contain text for OCR.
 
-How to Run
--------------------------------------------------------------------------------------------------
-1. Clone this repository or download the TensorFlow Vision Projects.ipynb file.
+2.  Open the notebook using Jupyter:
 
-2. Ensure you have a dataset of dog and cat images organized for training and validation (as expected by ImageDataGenerator if used in the full notebook).
+    ```bash
+    jupyter notebook "Chapter_08 (2).ipynb"
+    ```
 
-3. Open the notebook using Jupyter:
-
-   Bash
-
-   jupyter notebook "TensorFlow Vision Projects.ipynb"
-
-4. Execute the cells sequentially to train and experiment with the model.
+3.  Execute the cells sequentially to see the image segmentation and OCR in action.
