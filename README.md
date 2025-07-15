@@ -25,20 +25,20 @@ To run this notebook, you will need to have Python and the following libraries i
 
 You can install TensorFlow via pip:
 
-Bash
+  Bash
 
-pip install tensorflow
+  pip install tensorflow
 
 How to Run
---------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 1. Clone this repository or download the TensorFlow Vision Projects.ipynb file.
 
 2. Ensure you have a dataset of dog and cat images organized for training and validation (as expected by ImageDataGenerator if used in the full notebook).
 
 3. Open the notebook using Jupyter:
 
-Bash
+   Bash
 
-jupyter notebook "TensorFlow Vision Projects.ipynb"
+   jupyter notebook "TensorFlow Vision Projects.ipynb"
 
 4. Execute the cells sequentially to train and experiment with the model.
